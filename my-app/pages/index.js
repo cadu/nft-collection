@@ -369,7 +369,7 @@ export default function Home() {
         <div>
           <h1 className={styles.title}>Welcome to Crypto Devs!</h1>
           <div className={styles.description}>
-            Its an NFT collection for developers in Crypto.
+            It&apos;s an NFT collection for developers in Crypto.
           </div>
           <div className={styles.description}>
             {tokenIdsMinted}/20 have been minted
@@ -377,12 +377,12 @@ export default function Home() {
           {renderButton()}
         </div>
         <div>
-          <Image className={styles.image} src="/cryptodevs/0.svg" alt="Developers jumping" width="100%" height="100%" />
+          <img className={styles.image} src="/cryptodevs/0.svg" alt="Developers jumping" width="100%" height="100%" />
         </div>
       </div>
 
       <footer className={styles.footer}>
-        Made with &#10084; by Crypto Devs
+        Made with &#10084; by Cadu
       </footer>
     </div>
   );
